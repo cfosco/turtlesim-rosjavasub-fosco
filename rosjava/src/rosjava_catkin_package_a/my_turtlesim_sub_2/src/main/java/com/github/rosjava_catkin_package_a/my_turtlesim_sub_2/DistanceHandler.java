@@ -1,0 +1,33 @@
+package com.github.rosjava_catkin_package_a.my_turtlesim_sub_2;
+
+
+public class DistanceHandler {
+	
+
+	private static float prevX;
+	private static float prevY;
+	private static boolean firstCall = true;
+
+	private static float dist;
+
+	private static float distanceTravelled = 0;
+
+	public static float updateDistanceTravelled(float x, float y){
+	
+		if (firstCall) {
+			prevX = x;
+			prevY = y;
+			firstCall = false;
+		}
+
+		dist= (float)Math.sqrt((x-prevX)*(x-prevX) + (y-prevY)*(y-prevY));
+		prevX = x;
+		prevY = y;
+
+		distanceTravelled = distanceTravelled + dist;
+
+		return distanceTravelled;
+
+	}
+
+}

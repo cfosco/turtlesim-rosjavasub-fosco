@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "rosjava_catkin_package_a")
+set(rosjava_catkin_package_a_MAINTAINER "camilo <camilo@todo.todo>")
+set(rosjava_catkin_package_a_DEPRECATED "")
+set(rosjava_catkin_package_a_VERSION "0.1.0")
+set(rosjava_catkin_package_a_BUILD_DEPENDS "rosjava_build_tools" "geometry_msgs" "turtlesim")
+set(rosjava_catkin_package_a_RUN_DEPENDS "geometry_msgs" "turtlesim")
+set(rosjava_catkin_package_a_BUILDTOOL_DEPENDS "catkin")

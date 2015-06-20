@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/my_turtlesim_sub_2/my_turtlesim_sub_2.iml" filepath="$PROJECT_DIR$/my_turtlesim_sub_2/my_turtlesim_sub_2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rosjava_catkin_package_a.iml" filepath="$PROJECT_DIR$/rosjava_catkin_package_a.iml" />
+    </modules>
+  </component>
+</project>

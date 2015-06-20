@@ -1,0 +1,2 @@
+rosjava_catkin_package_a
+-DCATKIN_DEVEL_PREFIX=/home/camilo/rosjava/devel -DCMAKE_INSTALL_PREFIX=/home/camilo/rosjava/install -G Unix Makefiles

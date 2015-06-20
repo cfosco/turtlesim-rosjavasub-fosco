@@ -1,0 +1,9 @@
+
+/*
+ class Common {
+	public:
+		static float x,y,theta;
+};
+*/
+
+extern float x,y,theta;
